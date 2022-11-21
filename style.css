@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: lightblue;
+}
+
+.main {
+    background-color: gray;
+}
+
+footer p {
+    margin-top: 10px;
+}

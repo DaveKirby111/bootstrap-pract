@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Practice</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+    <header class="container text-center bg-warning p-5">
+        <h1 class="text-capitalize">bootstrap practice</h1>
+        <small class="text-capitalize">secondary text</small>
+    </header>
+
+    <!-- navbar-expand-* (sm,md, lg, xl. xx,) small, medium, large, etc. 
+    make navbar horizontal. remove navbar-expand-* to make vertical navbar. -->
+
+    <!-- add nav-tabs to turn nav menu into tabs. add active class to current page. -->
+
+    <nav class="navbar navbar-expand-sm nav-tabs text-capitalize">
+        <div class="container-fluid">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="" class="nav-link active">link</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">link</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">link</a>
+                </li>
+
+                <!-- dropdown -->
+
+                <li class="nav-item  dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Dropdown</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#" class="dropdown-item">link</a></li>
+                        <li><a href="#" class="dropdown-item">link</a></li>
+                        <li><a href="#" class="dropdown-item">link</a></li>
+                    </ul>
+                </li>
+
+                <li class="nav-item">
+                    <a href="" class="nav-link disabled">link</a>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+
+    <div class="main container-fluid d-flex flex-column min-vh-100">
+
+
+        <div class="container-fluid flex-grow-1">
+
+            <h2 class="text-center text-capitalize">bootstrap 5</h2>
+
+            <!-- basic horizontal nav. 
+            add flex-column to make vertical.-->
+
+        <ul class="nav text-capitalize justify-content-center">
+            <li class="nav-item">
+                <a href="" class="nav-link">link</a>
+            </li>
+            <li class="nav-item">
+                <a href="" class="nav-link">link</a>
+            </li>
+            <li class="nav-item">
+                <a href="" class="nav-link">link</a>
+            </li>
+        </ul>
+
+        </div>
+
+        </div>
+
+    <footer class="container-fluid bg-warning p-2">
+        <p class="text-capitalize text-center">author: david kirby</p>
+    </footer>
+    
+</body>
+</html>
